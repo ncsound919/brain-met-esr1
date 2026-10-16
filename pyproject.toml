@@ -1,0 +1,41 @@
+[project]
+name = "brain-met-esr1"
+version = "0.1.0"
+description = "ESR1 brain-metastasis organotropism: measurement, confounding, detection, dormancy"
+requires-python = ">=3.10"
+dependencies = [
+  "pydantic>=2",
+  "pandas",
+  "pyarrow",
+  "numpy",
+  "rich",
+]
+
+[project.optional-dependencies]
+bayes = ["pymc", "arviz"]
+fast = ["nutpie"]  # Rust NUTS; wired via --sampler nutpie (pm>=5 needs nutpie>=0.16.10)
+sim = ["gillespy2"]
+dag = ["pydagitty"]
+explore = ["marimo"]
+dev = ["pytest", "hypothesis", "ruff"]
+all = ["pymc", "arviz", "gillespy2", "pydagitty", "pytest", "hypothesis", "nutpie", "marimo"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.ruff.lint.per-file-ignores]
+# sys.path bootstrap precedes package imports by construction.
+"data/validate.py" = ["E402"]
+"tests/*.py" = ["E402"]
+# Marimo idiom: bare expressions are cell outputs; imports are cell-local.
+"notebooks/*.py" = ["B018", "I001"]
+
+[tool.marimo.runtime]
+pythonpath = ["."]

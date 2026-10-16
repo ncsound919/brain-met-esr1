@@ -1,0 +1,68 @@
+{
+  "tables": {
+    "cif_brain_first_mut.csv": {
+      "declared_at": "2026-10-16T05:54:08+00:00",
+      "declared_by": "competing_risks.py",
+      "note": "cause=brain_first",
+      "source": "derived from synthetic first_progression.parquet via --allow-synthetic",
+      "status": "synthetic"
+    },
+    "cif_brain_first_wt.csv": {
+      "declared_at": "2026-10-16T05:54:08+00:00",
+      "declared_by": "competing_risks.py",
+      "note": "cause=brain_first",
+      "source": "derived from synthetic first_progression.parquet via --allow-synthetic",
+      "status": "synthetic"
+    },
+    "detection_history.parquet": {
+      "declared_at": "2026-10-16T05:53:52+00:00",
+      "declared_by": "make_synthetic.py",
+      "note": "",
+      "source": "data/make_synthetic.py (numpy default_rng(7)); first_progression and the expression matrix encode the hypothesis by construction",
+      "status": "synthetic"
+    },
+    "expression.parquet": {
+      "declared_at": "2026-10-16T05:53:52+00:00",
+      "declared_by": "make_synthetic.py",
+      "note": "",
+      "source": "data/make_synthetic.py (numpy default_rng(7)); first_progression and the expression matrix encode the hypothesis by construction",
+      "status": "synthetic"
+    },
+    "expression_samples.parquet": {
+      "declared_at": "2026-10-16T05:53:52+00:00",
+      "declared_by": "make_synthetic.py",
+      "note": "",
+      "source": "data/make_synthetic.py (numpy default_rng(7)); first_progression and the expression matrix encode the hypothesis by construction",
+      "status": "synthetic"
+    },
+    "first_progression.parquet": {
+      "declared_at": "2026-10-16T05:53:52+00:00",
+      "declared_by": "make_synthetic.py",
+      "note": "",
+      "source": "data/make_synthetic.py (numpy default_rng(7)); first_progression and the expression matrix encode the hypothesis by construction",
+      "status": "synthetic"
+    },
+    "footprint_estrogen.csv": {
+      "declared_at": "2026-10-16T05:53:52+00:00",
+      "declared_by": "make_synthetic.py",
+      "note": "",
+      "source": "data/make_synthetic.py (numpy default_rng(7)); first_progression and the expression matrix encode the hypothesis by construction",
+      "status": "synthetic"
+    },
+    "meta_anchor.json": {
+      "declared_at": "2026-10-16T05:57:18+00:00",
+      "declared_by": "__main__.py",
+      "note": "external meta anchor; abstract-only provenance, study list unseen",
+      "source": "C:\\Users\\User\\AppData\\Local\\Temp\\pytest-of-User\\pytest-34\\test_ingest_builds_real_row0\\eco/evidence/evidence_ledger.csv:21 ESR1_META",
+      "status": "real"
+    },
+    "study_table.parquet": {
+      "declared_at": "2026-10-16T05:57:18+00:00",
+      "declared_by": "__main__.py",
+      "note": "",
+      "source": "C:\\Users\\User\\AppData\\Local\\Temp\\pytest-of-User\\pytest-34\\test_ingest_builds_real_row0\\eco\\brain-met-esr1\\data\\esr1_strata.csv (via ingest_ecosystem.py); PMID 39706915",
+      "status": "real"
+    }
+  },
+  "version": 1
+}

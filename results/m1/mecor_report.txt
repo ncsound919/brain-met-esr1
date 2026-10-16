@@ -1,0 +1,12 @@
+No mod_value/mod_rep1/mod_rep2 columns: template written to
+results/m1/mecor_template.csv. Collect replicate purity/fraction
+measures per study, then re-run for regression calibration.
+
+Sensitivity: corrected slope = naive slope / lambda:
+# A tibble: 4 × 2
+  lambda correction_factor
+   <dbl>             <dbl>
+1    0.6              1.67
+2    0.7              1.43
+3    0.8              1.25
+4    0.9              1.11

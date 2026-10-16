@@ -1,0 +1,14 @@
+{
+  "annals_106P": {
+    "or": 0.35,
+    "lo": 0.24,
+    "hi": 0.52,
+    "n_studies": 10,
+    "provenance": "Annals of Oncology abstract 106P, search to 2025-06-05. Abstract ONLY: study list, detection methods and heterogeneity unseen.",
+    "ledger": "evidence_ledger.csv:21 ESR1_META"
+  },
+  "giannoudis2024_pooled": {
+    "note": "computed from the ingested row, not transcribed",
+    "ledger": "brain-met-esr1/data/esr1_strata.csv"
+  }
+}

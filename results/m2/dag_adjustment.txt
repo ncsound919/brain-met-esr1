@@ -1,0 +1,24 @@
+--- G1 confounding graph ---
+Adjustment sets:
+{ C, M, T }
+E-S d-connected with empty set: TRUE 
+Open paths E-S:
+$paths
+[1] "E -> S"      "E <- C -> S" "E <- M -> S" "E <- T -> S"
+
+$open
+[1] TRUE TRUE TRUE TRUE
+
+
+--- G2 selection-collider graph (I descends from E, S) ---
+Adjustment sets:
+{ C, M, T }
+E-S d-connected with empty set: TRUE 
+Open paths E-S:
+$paths
+[1] "E -> I <- S" "E -> S"      "E <- C -> S" "E <- M -> S" "E <- T -> S"
+
+$open
+[1] FALSE  TRUE  TRUE  TRUE  TRUE
+
+

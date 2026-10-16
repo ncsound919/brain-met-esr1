@@ -1,0 +1,13 @@
+﻿# Snakemake + tooling caches
+.snakemake/
+__pycache__/
+*.pyc
+.ruff_cache/
+.hypothesis/
+.pytest_cache/
+.python-version
+
+# R
+.Rhistory
+.RData
+Rplots.pdf
