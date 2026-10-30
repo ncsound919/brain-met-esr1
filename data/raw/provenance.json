@@ -50,17 +50,17 @@
       "status": "synthetic"
     },
     "meta_anchor.json": {
-      "declared_at": "2026-10-16T05:57:18+00:00",
+      "declared_at": "2026-10-23T15:17:21+00:00",
       "declared_by": "__main__.py",
       "note": "external meta anchor; abstract-only provenance, study list unseen",
-      "source": "C:\\Users\\User\\AppData\\Local\\Temp\\pytest-of-User\\pytest-34\\test_ingest_builds_real_row0\\eco/evidence/evidence_ledger.csv:21 ESR1_META",
+      "source": "C:\\Users\\tap45\\AppData\\Local\\Temp\\pytest-of-tap45\\pytest-349\\test_ingest_builds_real_row0\\eco/evidence/evidence_ledger.csv:21 ESR1_META",
       "status": "real"
     },
     "study_table.parquet": {
-      "declared_at": "2026-10-16T05:57:18+00:00",
+      "declared_at": "2026-10-23T15:17:21+00:00",
       "declared_by": "__main__.py",
       "note": "",
-      "source": "C:\\Users\\User\\AppData\\Local\\Temp\\pytest-of-User\\pytest-34\\test_ingest_builds_real_row0\\eco\\brain-met-esr1\\data\\esr1_strata.csv (via ingest_ecosystem.py); PMID 39706915",
+      "source": "C:\\Users\\tap45\\AppData\\Local\\Temp\\pytest-of-tap45\\pytest-349\\test_ingest_builds_real_row0\\eco\\brain-met-esr1\\data\\esr1_strata.csv (via ingest_ecosystem.py); PMID 39706915",
       "status": "real"
     }
   },
